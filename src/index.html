@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <img src="media/logo.png" class="logo" />
+  </header>
+  <div id="start" class="bg">
+    <h1>Cifrado César</h1>
+    <p>Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que
+      se encuentra un número fijo de posiciones más adelante en el alfabeto.</p>
+    <p>Úsalo para comunicarte con tus amigos en Redes Sociales, juegos online y mensajería.</p>
+    <form action="" id="form">
+      <br>
+      <h2>
+        <label for="fname">Ingresa tu nombre:</label>
+      </h2>
+      <br>
+      <input id="name" type="text" autocomplete="off"></br>
+    </form>
+    <br>
+    <button type="button" id="encode_page" class="btn-style">Codificar</button></br>
+    <br>
+    <br>
+    <button type="button" id="decode_page" class="btn-style">Decodificar</button>
+  </div>
+  <script src="index.js" type="module"></script>
+  <script src="cipher.js" type="module"></script>
+</body>
+
 </html>
