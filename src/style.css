@@ -3,79 +3,79 @@
 
 /* clases */
 .logo {
-    width: 40%;
-    align: left;
+  width: 40%;
+  box-align: left;
 }
 
 body {
-    text-align: center;
-    margin: 20%;
-    margin-top: 0;
-    border: 10 px;
-    background-color: #000000;
+  text-align: center;
+  margin: 20%;
+  margin-top: 0;
+  border: 10 px;
+  background-color: #000000;
 }
 
 h1 {
-    color: #4C8077;
-    font-family: 'Tenali Ramakrishna', sans-serif;
+  color: #4C8077;
+  font-family: 'Tenali Ramakrishna', sans-serif;
 }
 
 h2 {
-    color: #DB6129;
-    font-family: 'Roboto Mono', monospace;
+  color: #DB6129;
+  font-family: 'Roboto Mono', monospace;
 }
 
 p {
-    font-family: 'Roboto Mono', monospace;
-    color: #4C8076;
+  font-family: 'Roboto Mono', monospace;
+  color: #4C8076;
 }
 
 .bg {
-    background-color: #FFFFFF;
-    padding: 5%;
-    margin-top: 5%;
-    border-radius: 5%;
-    border: 3px solid #DB6129;
+  background-color: #FFFFFF;
+  padding: 5%;
+  margin-top: 5%;
+  border-radius: 5%;
+  border: 3px solid #DB6129;
 }
 
 .btn-style {
-    font-family: 'Roboto Mono', monospace;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: #64BAAA;
-    border-radius: 6px;
-    border: 2px solid #4C8076;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #64BAAA;
+  border-radius: 6px;
+  border: 2px solid #4C8076;
 }
 
 .btn-style:hover {
-    color: #64BAAA;
-    background-color: #ffffff;
+  color: #64BAAA;
+  background-color: #ffffff;
 }
 
 .pass {
-    text-align: left;
-    margin-left: 17%
+  text-align: left;
+  margin-left: 17%
 }
 
 textarea {
-    overflow: scroll;
-    resize: none;
-    margin-left: 0%;
-    width: 70%
+  overflow: scroll;
+  resize: none;
+  margin-left: 0%;
+  width: 70%
 }
 
 .copy-btn {
-    background-image: url('https://image.flaticon.com/icons/svg/60/60990.svg');
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    border: none;
-    padding: 10px;
-    width: 5px;
-    height: 5px;
-    transition: all 0.5s;
-    cursor: pointer;
+  background-image: url('https://image.flaticon.com/icons/svg/60/60990.svg');
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  border: none;
+  padding: 10px;
+  width: 5px;
+  height: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
 }
