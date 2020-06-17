@@ -1,6 +1,6 @@
 // Importamos el objeto `cipher`, que contiene los métodos `encode` y `decode`
-//import cipher from '../src/cipher';
-const cipher = require('../src/cipher');
+import cipher from '../src/cipher';
+
 describe('cipher', () => {
 
     test('should be an object', () => {

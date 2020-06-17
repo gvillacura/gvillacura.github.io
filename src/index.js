@@ -66,10 +66,7 @@ function startAgain1() {
     window.location = "index.html";
 }
 //*funcion para cambiarletras minusculas a mayuscula (onkeyup="myFunction() va haciendo cambio uno X uno")*//
-function myFunction1() {
-    var y = document.getElementById("message_to_decode");
-    y.value = y.value.toUpperCase();
-}
+myFunction();
 
 
 function decode() {
