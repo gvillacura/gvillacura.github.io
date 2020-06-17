@@ -58,4 +58,5 @@ function decodeMessage(offset, string) {
 
 }
 
-export default cipher;
+//export default cipher;
+module.exports = cipher;
