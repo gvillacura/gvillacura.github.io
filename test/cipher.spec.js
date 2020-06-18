@@ -19,7 +19,6 @@ describe('cipher', () => {
 
     });
 
-
     describe('cipher.decode', () => {
 
         test('should be a function', () => {

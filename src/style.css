@@ -16,26 +16,31 @@ body {
 }
 
 h1 {
-  color: #4C8077;
+  color: #528FF8;
   font-family: 'Tenali Ramakrishna', sans-serif;
 }
 
 h2 {
-  color: #DB6129;
+  color: #528FF8;
   font-family: 'Roboto Mono', monospace;
 }
 
 p {
   font-family: 'Roboto Mono', monospace;
-  color: #4C8076;
+  color: #6680C2;
+}
+
+footer {
+  padding: 5%;
+  border-radius: 5%;
 }
 
 .bg {
-  background-color: #FFFFFF;
+  background-color: #F6F9FF;
   padding: 5%;
   margin-top: 5%;
   border-radius: 5%;
-  border: 3px solid #DB6129;
+  border: 3px solid #528FF8;
 }
 
 .btn-style {
@@ -45,13 +50,13 @@ p {
   font-weight: 600;
   font-size: 20px;
   color: #ffffff;
-  background-color: #64BAAA;
+  background-color: #528FF8;
   border-radius: 6px;
-  border: 2px solid #4C8076;
+  border: 2px solid #6680C2;
 }
 
 .btn-style:hover {
-  color: #64BAAA;
+  color: #528FF8;
   background-color: #ffffff;
 }
 
@@ -78,4 +83,8 @@ textarea {
   height: 5px;
   transition: all 0.5s;
   cursor: pointer;
+}
+
+.foot {
+  color: #F6F9FF
 }

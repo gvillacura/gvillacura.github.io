@@ -3,6 +3,7 @@ let userName;
 let string;
 let offset;
 
+//acá estamos creando los botones para la opción de cifrar y descifrar.
 const buttonEncode = document.getElementById("encode_page");
 buttonEncode.addEventListener("click", encode);
 const buttonDecode = document.getElementById("decode_page");
@@ -10,14 +11,15 @@ buttonDecode.addEventListener("click", decode);
 
 function nombre() {
     userName = document.getElementById("name").value;
-
 }
+
 //*funcion para cambiarletras minusculas a mayuscula (onkeyup="myFunction() va haciendo cambio uno X uno")*//
 function myFunction() {
     var x = document.getElementById("message_to_encode");
     x.value = x.value.toUpperCase();
 }
 
+//función para mostrar la página de codificado.
 function encode() {
     nombre();
     document.getElementById("start").innerHTML = `
@@ -42,6 +44,7 @@ function encode() {
   <button type="button" id="button_start" class="btn-style">Volver al inicio</button> 
  
  `
+    //acá damos la funcionabilidad de copiar el texo cifrado.
     var button = document.getElementById("copyID"),
         input = document.getElementById("content");
 
@@ -54,6 +57,7 @@ function encode() {
     const buttonBack1 = document.getElementById("button_start");
     buttonBack1.addEventListener('click', startAgain1);
     const startEncode = document.getElementById("start_encode");
+    //Llamamos a cipher desde cipher.js
     startEncode.addEventListener('click', function () {
         string = document.getElementById("message_to_encode").value;
         offset = document.getElementById("key").value;
@@ -61,14 +65,14 @@ function encode() {
         document.getElementById("content").innerHTML = finalMessage;
     });
 }
-
+//función para volver a la página inicial.
 function startAgain1() {
     window.location = "index.html";
 }
 //*funcion para cambiarletras minusculas a mayuscula (onkeyup="myFunction() va haciendo cambio uno X uno")*//
 myFunction();
 
-
+//función para mostrar la página de decodificado.
 function decode() {
     nombre();
     document.getElementById("start").innerHTML = `
@@ -105,6 +109,7 @@ function decode() {
     const buttonBack1 = document.getElementById("button_start");
     buttonBack1.addEventListener('click', startAgain1);
     const startDecode = document.getElementById("start_decode");
+    //Llamamos a cipher desde cipher.js
     startDecode.addEventListener('click', function () {
         string = document.getElementById("message_to_decode").value;
         offset = document.getElementById("key").value;
@@ -112,5 +117,3 @@ function decode() {
         document.getElementById("content").innerHTML = finalMessage;
     });
 }
-
-/*console.log(cipher);*/
